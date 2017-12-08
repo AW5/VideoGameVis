@@ -4,7 +4,7 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+#setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 data = read.csv('data/vgsales.csv')
 data$Year = as.character(data$Year)
@@ -64,5 +64,5 @@ server <- function(input,output){
 
 # Create Shiny app ----
 shinyApp(ui = ui, server = server)
-
-runGitHub( "VideoGameVis", "dingluo1205") 
+ 
+#runGitHub( "VideoGameVis", "dingluo1205")
