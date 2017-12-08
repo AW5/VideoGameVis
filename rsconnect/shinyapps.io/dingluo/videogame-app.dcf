@@ -1,0 +1,12 @@
+name: videogame-app
+title:
+username:
+account: dingluo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 246147
+bundleId: 1123831
+url: https://dingluo.shinyapps.io/videogame-app/
+when: 1512766011.02367
+asMultiple: FALSE
+asStatic: FALSE
